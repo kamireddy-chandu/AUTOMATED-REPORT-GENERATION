@@ -33,3 +33,5 @@ This project is an ideal mini-project for internships, coursework, or real-world
 #OUTPUT
 
 [report.pdf](https://github.com/user-attachments/files/20643617/report.pdf)
+
+<img width="960" alt="Image" src="https://github.com/user-attachments/assets/96019bd6-71b0-46e1-987e-6c9d2361553c" />
