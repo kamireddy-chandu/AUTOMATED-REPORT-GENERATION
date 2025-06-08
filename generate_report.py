@@ -1,8 +1,6 @@
 import csv
 from fpdf import FPDF
 import statistics
-
-# Read data from CSV
 def read_data(filename):
     data = []
     with open(filename, newline='') as csvfile:
@@ -12,7 +10,6 @@ def read_data(filename):
             data.append(row)
     return data
 
-# Analyze data
 def analyze_data(data):
     scores = [item['Score'] for item in data]
     avg = statistics.mean(scores)
@@ -20,7 +17,6 @@ def analyze_data(data):
     lowest = min(data, key=lambda x: x['Score'])
     return avg, highest, lowest
 
-# Generate PDF report
 def generate_pdf(data, avg, highest, lowest, filename='report.pdf'):
     pdf = FPDF()
     pdf.add_page()
@@ -44,7 +40,6 @@ def generate_pdf(data, avg, highest, lowest, filename='report.pdf'):
     pdf.output(filename)
     print(f"Report generated: {filename}")
 
-# Run the program
 if __name__ == "__main__":
     filename = 'data.csv'
     data = read_data(filename)
