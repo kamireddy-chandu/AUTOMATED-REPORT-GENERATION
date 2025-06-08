@@ -31,3 +31,5 @@ Overall, this project demonstrates how Python can be used as a powerful tool for
 This project is an ideal mini-project for internships, coursework, or real-world applications, and it also serves as a stepping stone toward advanced data reporting systems integrated with dashboards and interactive charts.
 
 #OUTPUT
+
+[report.pdf](https://github.com/user-attachments/files/20643617/report.pdf)
